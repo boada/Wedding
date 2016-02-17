@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css">
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="wed_style.css">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" />
+    <link type="text/css" rel="stylesheet" href="bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="wed_style.css"/>
   </head>
   
   <body>
+  <!-- Not sure that I want or need a navigation bar at the top -->
     <!-- <div class="nav">
       <div class="container">
         <ul class="pull-left">
@@ -23,99 +24,91 @@
       </div>
     </div>-->
 	
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Steven and Tess are getting married!</h1>
-		<p></p>
-		<p>Tentative Date: July 2016</p>
-        <p>All of the information should be on this site, so keep an eye out.</p>
-      </div>
-    </div> 
-<!-- comment -->
-	
-    <div class="learn-more">
-	  <div class="container">
-		<div class="row">
-	      <div class="col-md-4">
-			<h3>Wedding Ceremony</h3>
-			<p>We currently plan to have the wedding ceremony at Tess's church, First Presbyterian Church of Bryan.</p>
-			<p>It will be really, really, really hot in July, so please feel free to wear casual summer wedding clothes, but the church sanctuary can be cold, so consider bringing a shawl or sweater.</p>
-			<p></p>
-			<p><a href="http://www.fpcbryan.org/">Church Site</a></p>
-		  </div>
-		  <div class="col-md-4">
-			<h3>Reception</h3>
-			<p>The reception will begin after the wedding ceremony.  There will be food and booze.</p>
-			<p>We think we will get married at a brew-house in Downtown Bryan.  We may have BBQ.</p>
-			<p><a href="http://blackwaterbrew.com">Learn more about Black Water Draw</a></p>
-			<p><a href="dbqbbq.com">Learn more about DBQ</a></p>
-		  </div>
-		  <div class="col-md-4">
-			<h3>Registry</h3>
-			<p>Thank you for helping us establishes our household! We have not currently registered for any goods.</p>
-			<p><a href="#">Registy 1</a></p>
-			<p><a href="#">Registy 2</a></p>
-			<p>P.S. If you are considering giving us a gift card we would like to request a check instead, this gives us greater flexibility while we are in transition.</p>
-		  </div>		
-		</div>  
-      </div>
-	</div>
-	
-	<div class="visit-info">
-	  <div class="container">
-		<div class="row">
-		  <div class="col-md-4">
-			<h3>Maps</h3>
-			<p>I thought Tess made maps for a living... why hasn't she made maps?</p>
-			<p><a href="#">Map 1</a></p>
-			<p><a href="#">Map 2</a></p>
-			<p></p>
-		  </div>
-		  <div class="col-md-4">
-			<h3>Hotels</h3>
-			<p>Where should people stay?</p>
-			<p><a href="#">Hotel in Downtown Bryan</a></p>
-			<p><a href="#">Hotel with a pool</a></p>
-			<p></p>
-		  </div>
-		  <div class="col-md-4">
-			<h3>Fun Things in Bryan</h3>
-			<p>Things you might do in Bryan and College Station</p>
-			<p><a href="www.bush41.org">George Bush Presidential Library</a></p>
-			<p><a href="http://www.bryantx.gov/parks-and-recreation/pools-and-aquatic-facilities/">Bryan Pools</a></p>
-			<p><a href="http://www.bryantx.gov/visit/">Bryan Visitor Information</a></p>
-			<p><a href="http://www.cstx.gov/index.aspx?page=5">College Station Visitor Information</a></p>
-		  </div>
-        </div>
-      </div>
-	</div>
-	
 	<div class="space-for-pictures">
       <div class="container">
-        <h2>Pictures</h2>
-        <p></p>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img src="http://www.hopsandpeppers.com/wordpress/wp-content/uploads/2015/01/1772040.jpg" />
-            </div>
-            <div class="thumbnail">
-              <img src="http://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/91116lc.jpg" />
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img src="https://s-media-cache-ak0.pinimg.com/236x/12/64/da/1264da4a3f18207dc22592102abae40d.jpg" />
-            </div>
-            <div class="thumbnail">
-              <img src="http://www.wonderslist.com/wp-content/uploads/2014/10/Bleeding-Heart-Flower-Pictures.jpg" />
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img src="http://thatgamecompany.com/wp-content/themes/thatgamecompany/_include/img/flower/flower-game-screenshot-2.jpg" />
-            </div>          
-          </div>
+          <table>
+	        <th>
+	            <thead colspan="3">
+					<h1>Steven and Tess are getting married!</h1>
+					<p></p>
+					<h3>Tentative Date: July 2016</h3>
+					<h3>All of the information should be on this site, so keep an eye out.</h3>
+				</thead>
+	        </th>
+	        <th>
+	            <tr>
+	                <td><!-- <img src="http://www.hopsandpeppers.com/wordpress/wp-content/uploads/2015/01/1772040.jpg" />-->
+						<div id="Wedding Ceremony">
+							<h3>Wedding Ceremony</h3>
+							<p>We currently plan to have the wedding ceremony at Tess's church, First Presbyterian Church of Bryan.</p>
+							<p>It will be really, really, really hot in July, so please feel free to wear casual summer wedding clothes, but the church sanctuary can be cold, so consider bringing a shawl or sweater.</p>
+							<p></p>
+							<p><a href="http://www.fpcbryan.org/">Church Site</a></p>
+						</div>
+					</td>
+	                <td><!-- <img src="http://www.wonderslist.com/wp-content/uploads/2014/10/Bleeding-Heart-Flower-Pictures.jpg" />-->
+						<div id="Reception">
+							<h3>Reception</h3>
+							<p>The reception will begin after the wedding ceremony.  There will be food and booze.</p>
+							<p>We think we will get married at a brew-house in Downtown Bryan.  We may have BBQ.</p>
+							<p><a href="http://blackwaterbrew.com">Learn more about Black Water Draw</a></p>
+							<p><a href="dbqbbq.com">Learn more about DBQ</a></p>
+						</div>
+					</td>
+	                <td><!-- <img src="http://thatgamecompany.com/wp-content/themes/thatgamecompany/_include/img/flower/flower-game-screenshot-2.jpg" />-->
+						<div id="Registry">
+							<h3>Registry</h3>
+							<p>Thank you for helping us establishes our household! We have not currently registered for any goods.</p>
+							<p><a href="#">Registy 1</a></p>
+							<p><a href="#">Registy 2</a></p>
+							<p>P.S. If you are considering giving us a gift card we would like to request a check instead, this gives us greater flexibility while we are in transition.</p>
+						</div>		
+					</td>
+	            </tr>
+	            <tr>
+                    <td><!-- <img src="http://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/91116lc.jpg" />-->
+					
+					</td>
+	                <td><!-- <img src="http://thatgamecompany.com/wp-content/themes/thatgamecompany/_include/img/flower/flower-game-screenshot-2.jpg" />-->
+					
+					</td>
+	                <td><!-- <img src="http://www.hopsandpeppers.com/wordpress/wp-content/uploads/2015/01/1772040.jpg" />-->
+					
+					</td>
+	            </tr>
+	            <tr>
+	                <td><!-- <img src="https://s-media-cache-ak0.pinimg.com/236x/12/64/da/1264da4a3f18207dc22592102abae40d.jpg" />-->
+						<div>
+							<h3>Maps</h3>
+							<p>I thought Tess made maps for a living... why hasn't she made maps?</p>
+							<p><a href="#">Map 1</a></p>
+							<p><a href="#">Map 2</a></p>
+							<p></p>
+						</div>
+					</td>
+	                <td><!-- <img src="https://s-media-cache-ak0.pinimg.com/236x/12/64/da/1264da4a3f18207dc22592102abae40d.jpg" />-->
+						<div>
+							<h3>Hotels</h3>
+							<p>Where should people stay?</p>
+							<p><a href="#">Hotel in Downtown Bryan</a></p>
+							<p><a href="#">Hotel with a pool</a></p>
+							<p></p>
+						</div>
+					</td>
+	                <td><!-- <img src="https://s-media-cache-ak0.pinimg.com/236x/12/64/da/1264da4a3f18207dc22592102abae40d.jpg" />-->
+						<div>
+							<h3>Fun Things in Bryan</h3>
+							<p>Things you might do in Bryan and College Station</p>
+							<p><a href="www.bush41.org">George Bush Presidential Library</a></p>
+							<p><a href="http://www.bryantx.gov/parks-and-recreation/pools-and-aquatic-facilities/">Bryan Pools</a></p>
+							<p><a href="http://www.bryantx.gov/visit/">Bryan Visitor Information</a></p>
+							<p><a href="http://www.cstx.gov/index.aspx?page=5">College Station Visitor Information</a></p>
+						</div>
+					</td>
+	            </tr>
+	        </th>
+
+		  </table>
         </div>
       </div>
     </div>  
