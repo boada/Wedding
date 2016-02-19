@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Blueprint: Full Width Image Slider</title>
+		<meta name="description" content="Blueprint: " />
+		<meta name="keywords" content="" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">	
+			<div id="cbp-fwslider" class="cbp-fwslider" style="text-align:center;">
+				<ul>
+					<li><a href="#"><img src="images/1.jpg" alt="img01"/></a>Veronica's First Winter in Minnesota.</li>
+					<li><a href="#"><img src="images/2.jpg" alt="img02"/></a>Selfies are cool.</li>
+					<li><a href="#"><img src="images/3.jpg" alt="img03"/></a>Brigadoon Brewery at the Texas Renaissance Festival.</li>
+					<li><a href="#"><img src="images/4.jpg" alt="img04"/></a>Civil war reenactment.</li>
+					<li><a href="#"><img src="images/5.jpg" alt="img05"/></a>The night we got our mugs at O'Bannon's.</li>
+					<li><a href="#"><img src="images/6.jpg" alt="img06"/></a>Visiting Summit brewery.</li>
+					<li><a href="#"><img src="images/7.jpg" alt="img07"/></a>The Grand Canyon.</li>
+					<li><a href="#"><img src="images/8.jpg" alt="img08"/></a>Our first trip to Vegas.</li>
+					<li><a href="#"><img src="images/9.jpg" alt="img09"/></a>The Minnesota State Fair.</li>
+					<li><a href="#"><img src="images/10.jpg" alt="img010"/></a>Freak show at the Minnesota State Fair.</li>
+					<li><a href="#"><img src="images/11.jpg" alt="img011"/></a>Halloween 2011 German themed costumes.</li>
+					<li><a href="#"><img src="images/12.jpg" alt="img012"/></a>Halloween 2012 Game of Thrones costumes.</li>
+					<li><a href="#"><img src="images/13.jpg" alt="img013"/></a>Texas Renaissance Festival 2013.</li>
+					<li><a href="#"><img src="images/14.jpg" alt="img014"/></a>A Minnesota Winter (or Summer, hard to tell).</li>
+				</ul>
+			</div>
+		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.cbpFWSlider.min.js"></script>
+		<script>
+			$( function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpFWSlider( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 500,
+					// default transition easing
+					easing : 'ease'
+				}
+				- destroy:
+				$( selector ).cbpFWSlider( 'destroy' );
+				*/
+
+				$( '#cbp-fwslider' ).cbpFWSlider();
+
+			} );
+		</script>
+	</body>
+</html>
