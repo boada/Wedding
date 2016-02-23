@@ -66,6 +66,7 @@ textarea {
 
 /* ===== Initializr Styles ==================================================
    Author: Bradley Greenwood
+   Edited by: Elizabeth Rentschlar and Steven Boada
    ========================================================================== */
 
 body {
@@ -489,7 +490,38 @@ nav ul li a::-moz-focus-inner {border:0;}
         width: 100%;
     }
 
-  
+	#directions2from{
+		background-image: url(https://github.com/trentschlar/Wedding/blob/gh-pages/img/maps/directions-md-large.jpg?raw=true);
+		background-repeat: no-repeat; 
+		height: 1266px;
+		width: 1000px;
+		background-position: center; 
+		padding-top:68px; 
+		margin-bottom:50px;
+		
+	}
+	
+	#ChurchParking{
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/ChurchParking-medium2.jpg);
+		background-repeat: no-repeat; 
+		height: 593px;
+		width: 1000px;
+		background-position: center; 
+		padding-top:68px; 
+		margin-bottom:50px;
+	}
+	
+	#CottonParking{
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/CottonParking-medium2.jpg);
+		background-repeat: no-repeat; 
+		height: 570px;
+		width: 1000px;
+		background-position: center; 
+		padding-top:68px; 
+		margin-bottom:50px;
+	}
+	
+	
 }
 
 /* ==========================================================================
