@@ -183,6 +183,37 @@ body {
     font-size: 1em;
 }
 
+#directions2from{
+		background-image: url(https://github.com/trentschlar/Wedding/blob/gh-pages/img/maps/directions-md-large.jpg?raw=true);
+		background-repeat: no-repeat; 
+		height: 95%;
+		width: 95%;
+		background-position: center; 
+		padding-top:68px; 
+		margin-bottom:50px;
+		
+}
+	
+#ChurchParking{
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/ChurchParking-medium2.jpg);
+		background-repeat: no-repeat; 
+		height: 95%;
+		width: 95%;
+		background-position: center; 
+		padding-top:68px; 
+		margin-bottom:50px;
+}
+	
+#CottonParking{
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/CottonParking-medium2.jpg);
+		background-repeat: no-repeat; 
+		height: 95%;
+		width: 95%;
+		background-position: center; 
+		padding-top:68px; 
+		margin-bottom:50px;
+}
+
 /* ==============
     MOBILE: Menu
    ============== */
@@ -357,8 +388,6 @@ nav ul li a::-moz-focus-inner {border:0;}
     #gmap iframe {
         height: 400px;
     }
-
-
 
 /* ========================
     INTERMEDIATE: IE Fixes
