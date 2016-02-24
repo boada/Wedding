@@ -452,9 +452,9 @@ nav ul li a::-moz-focus-inner {border:0;}
     }
 	
 		#directions2from{
-		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/dirs-small.jpg);
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/dirs-med.jpg);
 		background-repeat: no-repeat; 
-		height: 657px;
+		height: 656px;
 		width: 519px;
 		background-position: center; 
 		padding-top:68px; 
@@ -463,9 +463,9 @@ nav ul li a::-moz-focus-inner {border:0;}
 	}
 	
 	#ChurchParking{
-		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/FPC-small.jpg);
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/FPC-med.jpg);
 		background-repeat: no-repeat; 
-		height: 308px;
+		height: 309px;
 		width: 519px;
 		background-position: center; 
 		padding-top:68px; 
@@ -473,9 +473,9 @@ nav ul li a::-moz-focus-inner {border:0;}
 	}
 	
 	#CottonParking{
-		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/Cotton-small.jpg);
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/Cotton-med.jpg);
 		background-repeat: no-repeat; 
-		height: 296px;
+		height: 300px;
 		width: 519px;
 		background-position: center; 
 		padding-top:68px; 
