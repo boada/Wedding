@@ -1,4 +1,4 @@
-legacy/
-examples/
+/legacy
+/examples
 
 .DS_Store
