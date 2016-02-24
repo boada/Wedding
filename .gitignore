@@ -1,0 +1,6 @@
+/legacy
+legacy/*
+/example
+example/*
+
+.DS_Store
