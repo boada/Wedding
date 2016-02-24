@@ -66,6 +66,7 @@ textarea {
 
 /* ===== Initializr Styles ==================================================
    Author: Bradley Greenwood
+   Edited by: Elizabeth Rentschlar and Steven Boada
    ========================================================================== */
 
 body {
@@ -180,6 +181,37 @@ body {
     margin-top: 10px;
     font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 1em;
+}
+
+#directions2from{
+		background-image: url(https://github.com/trentschlar/Wedding/blob/gh-pages/img/maps/directions-md-large.jpg?raw=true);
+		background-repeat: no-repeat; 
+		height: 95%;
+		width: 95%;
+		background-position: center; 
+		padding-top:68px; 
+		margin-bottom:50px;
+		
+}
+	
+#ChurchParking{
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/ChurchParking-medium2.jpg);
+		background-repeat: no-repeat; 
+		height: 95%;
+		width: 95%;
+		background-position: center; 
+		padding-top:68px; 
+		margin-bottom:50px;
+}
+	
+#CottonParking{
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/CottonParking-medium2.jpg);
+		background-repeat: no-repeat; 
+		height: 95%;
+		width: 95%;
+		background-position: center; 
+		padding-top:68px; 
+		margin-bottom:50px;
 }
 
 /* ==============
@@ -357,8 +389,6 @@ nav ul li a::-moz-focus-inner {border:0;}
         height: 400px;
     }
 
-
-
 /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
@@ -420,7 +450,38 @@ nav ul li a::-moz-focus-inner {border:0;}
         padding: 15px 2%;
         font-size: 90%;
     }
+	
+		#directions2from{
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/directions-sm-medium.jpg);
+		background-repeat: no-repeat; 
+		height: 657px;
+		width: 519px;
+		background-position: center; 
+		padding-top:68px; 
+		margin-bottom:50px;
+		
+	}
+	
+	#ChurchParking{
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/ChurchParking-small.jpg);
+		background-repeat: no-repeat; 
+		height: 308px;
+		width: 519px;
+		background-position: center; 
+		padding-top:68px; 
+		margin-bottom:50px;
+	}
+	
+	#CottonParking{
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/CottonParking-small.jpg);
+		background-repeat: no-repeat; 
+		height: 296px;
+		width: 519px;
+		background-position: center; 
+		padding-top:68px; 
+		margin-bottom:50px;
 }
+
 @media only screen and (min-width: 900px) {
 
     section h1,
@@ -489,7 +550,10 @@ nav ul li a::-moz-focus-inner {border:0;}
         width: 100%;
     }
 
-  
+
+	}
+	
+	
 }
 
 /* ==========================================================================
