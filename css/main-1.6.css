@@ -311,7 +311,7 @@ nav ul li a::-moz-focus-inner {border:0;}
     }
 
     #introtext .head-tess {
-        font-size: 7em;
+        font-size: 5em;
     }
     #introtext .amp {
         position: relative;
@@ -420,7 +420,7 @@ nav ul li a::-moz-focus-inner {border:0;}
    ============ */
 
     #introtext .head-tess {
-        font-size: 9em;
+        font-size: 6em;
    }
     #introtext .amp {
         top: 0;
@@ -529,7 +529,7 @@ nav ul li a::-moz-focus-inner {border:0;}
     }
 
     #introtext .head-tess {
-        font-size: 11em;
+        font-size: 8em;
     }
     #introtext .amp {
         top: 0;
@@ -978,3 +978,4 @@ blockquote:after {
 blockquote p {
         display: inline;
 }
+
