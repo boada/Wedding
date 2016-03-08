@@ -187,7 +187,10 @@ body {
     font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 1em;
 }
-
+#TandS{
+		margin-left: auto;
+		margin-right: auto;
+}
 #directions2from{
 		background-image: url(https://github.com/trentschlar/Wedding/blob/gh-pages/img/maps/directions-md-large.jpg?raw=true);
 		background-repeat: no-repeat; 
@@ -198,7 +201,6 @@ body {
 		margin-bottom:50px;
 		margin-left: auto;
 		margin-right: auto;
-		
 }
 	
 #ChurchParking{
