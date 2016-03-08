@@ -478,6 +478,16 @@ nav ul li a::-moz-focus-inner {border:0;}
         font-size: 90%;
     }
 	
+	#direction2hotel{
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/Airport-small.jpg);
+		background-repeat: no-repeat; 
+		height: 656px;
+		width: 519px;
+		background-position: center; 
+		padding-top:68px; 
+		margin-bottom:50px;
+	}
+	
 	#directions2from{
 		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/dirs-med.jpg);
 		background-repeat: no-repeat; 
