@@ -33,6 +33,11 @@ a {
     color: #b1bf92;
     text-decoration: none;
 }
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 hr {
     display: block;
     height: 1px;
