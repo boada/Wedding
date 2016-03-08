@@ -149,6 +149,7 @@ body {
     padding: 10px 0 10px 0;
     margin-bottom: 300px;
     background: black;
+	text-align: center 
 
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
@@ -191,6 +192,7 @@ body {
 		margin-left: auto;
 		margin-right: auto;
 }
+
 #directions2from{
 		background-image: url(https://github.com/trentschlar/Wedding/blob/gh-pages/img/maps/directions-md-large.jpg?raw=true);
 		background-repeat: no-repeat; 
