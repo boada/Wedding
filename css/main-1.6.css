@@ -149,9 +149,9 @@ body {
     padding: 10px 0 10px 0;
     margin-bottom: 300px;
     background: black;
-	text-align: center 
+	
 
-    -ms-border-radius: 8px;
+    /*-ms-border-radius: 8px;*/
     -o-border-radius: 8px;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
