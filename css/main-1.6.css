@@ -151,7 +151,7 @@ body {
     background: black;
 	
 
-    /*-ms-border-radius: 8px;*/
+    -ms-border-radius: 8px;
     -o-border-radius: 8px;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -881,7 +881,7 @@ html {
 body {
     font-family: "futura_ltbook", "HelveticaNeueLTStdRegular","HelveticaNeue", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     color: #fff;
-    text-align: justify;
+    text-align: center;
 
 }
 
