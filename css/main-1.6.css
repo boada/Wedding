@@ -206,7 +206,7 @@ body {
 }
 
 #directions2from{
-		background-image: url(https://github.com/trentschlar/Wedding/blob/gh-pages/img/maps/directions-md-large.jpg?raw=true);
+		background-image: url(https://github.com/trentschlar/Wedding/blob/gh-pages/img/maps/dirs-med.jpg?raw=true);
 		background-repeat: no-repeat; 
 		height: 95%;
 		width: 95%;
@@ -218,7 +218,7 @@ body {
 }
 	
 #ChurchParking{
-		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/ChurchParking-medium2.jpg);
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/FPC-med.jpg);
 		background-repeat: no-repeat; 
 		height: 95%;
 		width: 95%;
@@ -230,7 +230,7 @@ body {
 }
 	
 #CottonParking{
-		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/CottonParking-medium2.jpg);
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/Cotton-med.jpg);
 		background-repeat: no-repeat; 
 		height: 95%;
 		width: 95%;
