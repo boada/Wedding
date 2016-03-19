@@ -33,6 +33,11 @@ a {
     color: #b1bf92;
     text-decoration: none;
 }
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 hr {
     display: block;
     height: 1px;
@@ -144,6 +149,7 @@ body {
     padding: 10px 0 10px 0;
     margin-bottom: 300px;
     background: black;
+	
 
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
@@ -163,7 +169,7 @@ body {
 
 #introtext .head-tess {
     font-family: "EdwardianScrAltITCTT", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 5em;
+    font-size: 4em;
     line-height: 100%;
 }
 #introtext .amp {
@@ -174,7 +180,7 @@ body {
 }
 #introtext .head-steven {
     font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 2em;
+    font-size: 3em;
     line-height: 100%;
 }
 #introtext .date {
@@ -182,36 +188,57 @@ body {
     font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 1em;
 }
+#TandS{
+		margin-left: auto;
+		margin-right: auto;
+}
 
-#directions2from{
-		background-image: url(https://github.com/trentschlar/Wedding/blob/gh-pages/img/maps/directions-md-large.jpg?raw=true);
+#direction2hotel{
+		background-image: url(https://github.com/trentschlar/Wedding/blob/gh-pages/img/maps/Airport-medium2.jpg?raw=true);
 		background-repeat: no-repeat; 
 		height: 95%;
 		width: 95%;
 		background-position: center; 
 		padding-top:68px; 
 		margin-bottom:50px;
-		
+		margin-left: auto;
+		margin-right: auto;
+}
+
+#directions2from{
+		background-image: url(https://github.com/trentschlar/Wedding/blob/gh-pages/img/maps/dirs-med.jpg?raw=true);
+		background-repeat: no-repeat; 
+		height: 95%;
+		width: 95%;
+		background-position: center; 
+		padding-top:68px; 
+		margin-bottom:50px;
+		margin-left: auto;
+		margin-right: auto;
 }
 	
 #ChurchParking{
-		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/ChurchParking-medium2.jpg);
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/FPC-med.jpg);
 		background-repeat: no-repeat; 
 		height: 95%;
 		width: 95%;
 		background-position: center; 
 		padding-top:68px; 
 		margin-bottom:50px;
+		margin-left: auto;
+		margin-right: auto;
 }
 	
 #CottonParking{
-		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/CottonParking-medium2.jpg);
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/Cotton-med.jpg);
 		background-repeat: no-repeat; 
 		height: 95%;
 		width: 95%;
 		background-position: center; 
 		padding-top:68px; 
 		margin-bottom:50px;
+		margin-left: auto;
+		margin-right: auto;
 }
 
 /* ==============
@@ -311,7 +338,7 @@ nav ul li a::-moz-focus-inner {border:0;}
     }
 
     #introtext .head-tess {
-        font-size: 7em;
+        font-size: 6em;
     }
     #introtext .amp {
         position: relative;
@@ -320,7 +347,7 @@ nav ul li a::-moz-focus-inner {border:0;}
         margin-left: -20px;
     }
     #introtext .head-steven {
-        font-size: 3em;
+        font-size: 4em;
     }
     #introtext .date {
         font-size: 1.1em;
@@ -420,14 +447,14 @@ nav ul li a::-moz-focus-inner {border:0;}
    ============ */
 
     #introtext .head-tess {
-        font-size: 9em;
+        font-size: 7em;
    }
     #introtext .amp {
         top: 0;
         font-size: 1em;
     }
     #introtext .head-steven {
-        font-size: 4em;
+        font-size: 5em;
     }
     #introtext .date {
         font-size: 2em;
@@ -450,6 +477,16 @@ nav ul li a::-moz-focus-inner {border:0;}
         padding: 15px 2%;
         font-size: 90%;
     }
+	
+	#direction2hotel{
+		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/Airport-small.jpg);
+		background-repeat: no-repeat; 
+		height: 656px;
+		width: 519px;
+		background-position: center; 
+		padding-top:68px; 
+		margin-bottom:50px;
+	}
 	
 	#directions2from{
 		background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/dirs-med.jpg);
@@ -529,14 +566,14 @@ nav ul li a::-moz-focus-inner {border:0;}
     }
 
     #introtext .head-tess {
-        font-size: 11em;
+        font-size: 8em;
     }
     #introtext .amp {
         top: 0;
         font-size: 1.1em;
     }
     #introtext .head-steven {
-        font-size: 5em;
+        font-size: 6em;
     }
     #introtext .date {
 
@@ -978,3 +1015,4 @@ blockquote:after {
 blockquote p {
         display: inline;
 }
+
