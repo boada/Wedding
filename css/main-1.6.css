@@ -909,8 +909,8 @@ body {
 
 #bg-image {
     position: fixed; 
-    top: -75%; 
-    left: -75%; 
+    top: -175%; 
+    left: -175%; 
     width: 500%; 
     height: 500%;
 }
@@ -921,8 +921,8 @@ body {
     right: 0; 
     bottom: 0; 
     margin: auto; 
-    min-width: 75%;
-    min-height: 50%;
+    min-width: 275%;
+    min-height: 250%;
 }
 
 #bg-container {
