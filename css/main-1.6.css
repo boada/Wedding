@@ -915,7 +915,6 @@ body {
     height: 40%;
 }
 #bg-image img {
-    background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/bgNew.jpg);
     position: absolute; 
     top: 0; 
     left: 0; 
