@@ -909,7 +909,7 @@ body {
 
 #bg-image {
     position: fixed; 
-    background-size: 100%;
+    size: 100%;
     /*top: 45%; */
     /*left: -40%; */
     /*width: 40%; */
