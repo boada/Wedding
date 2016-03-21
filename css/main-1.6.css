@@ -921,8 +921,8 @@ body {
     right: 0; 
     bottom: 0; 
     margin: auto; 
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 65%;
+    min-height: 65%;
     max-width: 1940px;
     max-height: 1460px;
 }
