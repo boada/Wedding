@@ -908,6 +908,7 @@ body {
 }
 
 #bg-image {
+    background: #b1bf92;
     position: fixed; 
     /*top: 45%; 
     left: -1%;*/
