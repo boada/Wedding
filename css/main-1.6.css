@@ -921,8 +921,8 @@ body {
     right: 0; 
     bottom: 0; 
     margin: auto; 
-    min-width: 85%;
-    min-height: 85%;
+    min-width: 55%;
+    min-height: 55%;
     max-width: 125%;
     max-height: 125%;
 }
