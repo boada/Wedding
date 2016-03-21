@@ -924,6 +924,7 @@ body {
     min-width: 75%;
     min-height: 75%;
     max-width: 1940px;
+    max-height: 1460px;
 }
 
 #bg-container {
