@@ -911,8 +911,8 @@ body {
     position: fixed; 
     top: -50%; 
     left: -50%; 
-    width: 250%; 
-    height: 250%;
+    width: 400%; 
+    height: 400%;
 }
 #bg-image img {
     position: absolute; 
