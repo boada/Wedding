@@ -907,13 +907,13 @@ body {
 
 }
 
-/*#bg-image {
+#bg-image {
     position: fixed; 
     top: 45%; 
     left: -1%;
     width: 40%;
     height: 40%;
-}*/
+}
 #bg-image img {
     background-image: url(https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/bgNew.jpg);
     position: absolute; 
@@ -924,8 +924,8 @@ body {
     margin: auto; 
     min-width: 100%;
     min-height: 100%;
-    /*max-width: 1940px;
-    max-height: 1460px;*/
+    max-width: 1940px;
+    max-height: 1460px;
 }
 
 #bg-container {
