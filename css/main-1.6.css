@@ -921,8 +921,8 @@ body {
     right: 0; 
     bottom: 0; 
     margin: auto; 
-    min-width: 275%;
-    min-height: 250%;
+    min-width: 75%;
+    min-height: 50%;
 }
 
 #bg-container {
