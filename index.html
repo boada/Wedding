@@ -1,266 +1,90 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<html>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
 
-        <title>T & S</title>
-        <meta name="description" content="Welcome to Tess' and Steven's Wedding Website">
+.bgimg {
+  background-image: url('bamboo.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
 
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
 
-        <!-- For iPhone 4 with high-resolution Retina display: -->
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
-        <!-- For first-generation iPad: -->
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
-        <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-        <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
 
-        <link rel="shortcut icon" href="favicon.ico?v=1">
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main-1.6.css">
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-        <script src="js/main-1.6.js"></script>
-		<!-- Google analytics tracking -->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            
-            ga('create', 'UA-74181949-1', 'auto');
-            ga('send', 'pageview');
-            
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+<body>
 
-		</script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
+<div class="bgimg">
+  <div class="middle">
+    <h1>We're doing an update to things. The timer doesn't really mean anything.</h1>
+    <hr>
+    <p id="demo" style="font-size:30px"></p>
+  </div>
+  <div class="bottomleft">
+    <p>Some text</p>
+  </div>
+</div>
 
-        <div id="bg-image">
-            <img src="img/bgNew.jpg" alt="bg" />
-        </div>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 20, 2020 15:37:25").getTime();
 
-        <div id="bg-container">
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
 
-            <div class="header-container">
-                <div id="heading" class="wrapper clearfix">
-                    <nav id="nav">
-                        <ul>
-                            <li><a href="#wedding">WEDDING</a></li>
-                            <li><a href="#party">PARTY</a></li>
-                            <li><a href="#directions">DIRECTIONS</a></li>
-                            <li><a href="#accommodations">HOTEL</a></li>
-                            <li><a href="#fun">FUN</a></li>
-                            <li><a href="#registry">REGISTRY</a></li>
-                            <!--<li><a href="#rsvp">RSVP</a></li>-->
-                            <!--<li><a href="#brideandgroom">BRUDEPARET</a></li> -->
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+  // Get todays date and time
+  var now = new Date().getTime();
 
-            <div class="main-container">
-                <div class="main wrapper clearfix">
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
 
-                    <header>
-                        <div id="introtext">
-                            <span class="head-tess">Tess</span>
-                            <span class="head-steven">&nbsp;
-                                <span class="amp">&amp;</span> 
-                                Steven 
-                            </span>
-                            <div class="date">July 16th, 2016</div>
-                        </div>
-                    </header>
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-                    <div class="clearfix"></div>  <!--adds space to top -->
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
 
-			<section id="wedding" class="clearfix">
-                        	<h1>Wedding &mdash; July 16th, 2016</h1>
-                        	<div class="column full">
-                                	<p>
-The wedding ceremony will be held at <a href="http://www.fpcbryan.org/">First Presbyterian Church of Bryan</a>, at 5:30 PM.  
-					</p>
-                                	<p>
-It will be really, really, really, hot in July, so please feel free to wear casual summer wedding clothes, but the church sanctuary can be cold, so consider bringing a shawl or sweater.
-                                	</p>
-                        	</div>
+  // If the count down is over, write some text
+  if (distance < 0) {
+    clearInterval(countdownfunction);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
 
-                        	<div class="column left">
-                        		<p>
-                                    	<br/>
-                                    	<br/>
-					16:45 &mdash; Bride freakout<br/>
-                                    	17:00 &mdash; Begin seating<br/>
-					17:15 &mdash; Groom freakout<br/>
-                                    	17:30 &mdash; Ceremony<br/>
-                                    	18:00 &mdash; Transition to Party<br/>
-                            		</p>
-                		 </div>
-						<!--end column--> 
-
-                        	<div class="column right">
-					<br/>
-                            		<br/>
-                           		<!--<div id="TandS" ><img src="img/bonfire-us-300.jpg" alt="Tess and Steven" /></div>-->
-                		</div><!--end column--> 
-						
-                    	</section>
-
-                    	<section id="party" class="clearfix">
-                        	<div class="column full">
-                            		<h1>Party</h1>
-                        		 <p>
-					The party to celebrate our wedding will be at the <a href="http://brazoscottonexchange.com">Cotton Exchange</a> in Downtown Bryan. We will be serving a casual BBQ <a href="http://dbqbbq.com/"> dinner</a>.
-                            		</p>
-				</div><!--end column--> 	
-				<div class="column left">	
-					<p>This dinner will include:</p>
-					<ul>
-						<li>Brisket</li>
-						<li>Pulled Pork</li>
-						<li>Smoked Avocado</li>
-						<li>Cole Slaw</li>
-						<li>BBQ Beans</li>
-					</ul>
-				</div>
-				<div class="column right">
-					<p>The beverages provided will be:</p>
-					<ul>
-						<li>Water</li>
-						<li>Iced Tea</li>
-						<li><a href = "http://www.newrepublicbrewing.com/">New Republic's</a> Dammit Jim</li>
-						<li><a href = "http://www.newrepublicbrewing.com/">New Republic's</a> Skylight</li>
-						<li>Red Wine</li>
-					</ul>	
-                        	</div>
-                	 </section>
-
-                    	<section id="directions" class="clearfix">
-                        	<h1>Directions</h1>
-				<div class="column full">
-					<h2>Airport Information</h2>
-					<p>United and American fly into Easterwood Airport (CLL) in College Station several times a day.  You may also fly into George Bush Intercontinental airport (IAH) or Houston Hobby airport (HOB) and take the <a href="https://groundshuttle.com/">Ground Shuttle</a> for $30 to $40.</p>
-					<p>Once at Easterwood there are car rentals available, or you can take a taxi to the hotel.  If moneys tight (and we know flying is expensive and appreciate you making the effort to come celebrate with us) we can try and find you a ride if you give us a heads up.</p>
-					<p>Taxi Options:</p>
-					<ul>
-						<li>BCS Taxi: 979-779-8294</li>
-						<li>Curbside Taxi: 979-436-8107</li>
-						<li>Uber: Download the app</li>
-					</ul>
-					<a href="https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/Airport-large.pdf"><div id="direction2hotel"></div></a>
-				</div>
-				<div class="column full">
-					<h2>Day of Wedding</h2>
-					<a href="https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/dirs-large.pdf"><div id="directions2from">
-					</div></a>
-				</div>
-                        	<div class="column left">
-                            		<h2>Parking at First Presbyterian Church</h2>
-                            		<p>
-                                	1100 Carter Creek <br />
-                                	Bryan, TX 77802 <br /><br />
-                            		</p>
-					<a href="https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/FPC-large.pdf"><div id="ChurchParking">
-					</div></a>
-                        	</div><!--end column--> 
-
-                        	<div class="column right">
-                            		<h2>Parking at the Brazos Cotton Exchange</h2>
-                        	 	<p>
-                                	200 S Main Street <br />
-                                	Bryan, TX 77803 <br /><br />
-                            		</p>
-					<a href="https://raw.githubusercontent.com/trentschlar/Wedding/gh-pages/img/maps/Cotton-large.pdf"><div id="CottonParking">
-					</div></a>
-                        	</div><!--end column--> 
-				<div class="column full">
-					<h2>Transportation</h2>
-                            		<p>
-We are currently looking into transportation from Downtown Bryan to the church for anyone without transportation. 
-					</p>
-                        	</div>
-                    	</section>
-
-                    	<section id="accommodations" class="clearfix">
-
-                        	<h1>Accommodations</h1>
-
-                        	<div class="column full">
-                            		<p>We have a block of rooms at the <a href="http://www.lasalle-hotel.com/">LaSalle Hotel</a> in Downtown Bryan.  This is next door to our party venue.  The hotel is in walking distance of many parks, shops, and restaurants.<br/> 
-					<br/> 
-					LaSalle Hotel<br/>
-					120 S. Main Street, Bryan, Texas 77803<br/>
-					(979) 822-2000<br/> 
-					lasalledesk@lasalle-hotel.com<br/>
-                            		</p>
-							
-					<h2>What to do Downtown</h2>
-                            		<p>
-Our favorite Mexican restaurant, San Jose, is four blocks north of LaSalle on Main St.  If you are feeling adventurous, there is a hole in the wall Mexican restaurant between two warehouses, Taqueria El Tio, that is 9 blocks north of LaSalle on Bryan Ave that makes great Aguas Frescas.  Our favorite is the agua fresca sandía, aka Watermelon. 
-					</p>		
-					<p>Our favorite coffee place is Harvest, but the Village is good too.</p>
-                        	</div><!--end column-->
-                    	</section>
-
-			<section id="fun" class="clearfix">
-
-                        	<h1>Fun things in B / CS</h1>
-
-                        	<div class="column full">
-					<p>Things you might do in Bryan or College Station</p>
-					<ul>
-						<li><a href="http://www.bush41.org">George Bush Presidential Library</a></li>
-						<li><a href="http://www.bryantx.gov/parks-and-recreation/pools-and-aquatic-facilities/">Bryan Pools</a></li>
-						<li><a href="http://maroonbikeshare.com/">Rent a Bike</a></li>
-						<li><a href="http://www.bryantx.gov/visit/">Bryan Visitor Information</a></li>
-						<li><a href="http://www.cstx.gov/index.aspx?page=5">College Station Visitor Information</a></li>
-					</ul>
-                        	</div><!--end column-->
-                    	</section>
-					
-                    	<section id="registry" class="clearfix">
-                	 	<h1>Registry</h1>
-                        	<div class="column full">
-					<p>Thank you for wanting to help us set up our household! Below, you will find a few retailers where we have registered. We are also planning to buy a new mattress (maybe a <a href='https://casper.com/'>Casper</a>). If you cannot find something on our registry that you like, or if you would like to just give us cash (perhaps for our mattress), we will happily accept cash or check. If you would rather use your credit card, we are happy to accept your donation through paypal. Please keep in mind that paypal takes 3% (plus $0.30) of all donations we receive, so cash or check is prefered. Thanks.</p>
-
-					<a href="http://www.crateandbarrel.com/gift-registry/tess-rentschlar-and-steven-boada/r5499517" class="button">Crate and Barrel</a>
-					<a href="https://www.amazon.com/registry/wedding/2NQSO9VER3SS2" class="button">Amazon</a>
-					<a href="http://www.target.com/gift-registry/registry/PmiISjOm-B75L1eFKEYCRQ?lnk=copiedLink" class="button">Target</a>
-					<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=A26FNENUZH8TW" class="button">Donate Here via PayPal</a>
-                        	</div>
-                    	</section>
-
-                    	<!--<section id="rsvp" class="clearfix">
-                            	<h1>R.S.V.P.</h1>
-                            	<div class="column full">
-                                    	<p>There are many ways you can RSVP: Call us, e-mail us, write us a letter, or you can use this web page with the RSVP code that came with your invitation.
-                                    	</p>
-                                    	<p></p>
-					<a href="rsvp/index.html" class="button">RSVP here by June 1st!</a>
-					<p></p>
-					<img src="img/tess-contact.jpg" alt="tess-contact" align="middle"/>
-					
-                            	</div>-->
-                            <!--<div class="clearfix"></div>
-                            <div class="column full">
-                            <a href="http://goo.gl/forms/ut8j0rMfvX" class="button">RSVP here by June 1st!</a>
-                                    <a href="rsvp/index.html" class="button">Click here to RSVP</a>
-                            </div-->
-                    	<!--</section>-->
-
-                    	<div style="height: 300px"></div>
-                </div> <!-- #main -->
-            </div> <!-- #main-container -->
-        </div> <!-- #bg-container -->
-		<a href="https://github.com/trentschlar"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
-    </body>
+</body>
 </html>
-
